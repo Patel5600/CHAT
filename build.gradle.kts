@@ -1,0 +1,1 @@
+plugins {\n    id(\"com.android.application\") version \"8.1.2\" apply false\n    id(\"com.android.library\") version \"8.1.2\" apply false\n    kotlin(\"android\") version \"1.9.10\" apply false\n    kotlin(\"jvm\") version \"1.9.10\" apply false\n}\n\ntasks.register(\"clean\", Delete::class) {\n    delete(rootProject.buildDir)\n}\n
